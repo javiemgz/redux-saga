@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const B_URL = 'http://omdbapi.com/?i=tt3896198&apikey=b7282e9c'
+const B_URL = 'http://omdbapi.com/?apikey=b7282e9c'
 
 export const apiCall = ( url, data, headers, method) => axios ({
     method,
